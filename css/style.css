@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#cabecalho{
+    width: 960px;
+    margin:0 auto;
+}
+
+#banner-container {
+    height: 215px;
+}
+
+#banner-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#menu ul {
+    background-color: #403000;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#menu ul li {
+   
+}
+
+#menu ul li a {
+    display: inline-block;
+    color: #FFF;
+    font-weight: bold;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#menu ul li a:hover {
+    color: #403000;
+    background-color: #FFF;
+}
+
+#conteudo-home {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.artigo-informacao {
+    width: 300px;
+}
+
+.imagem-artigo-informacao {
+    height: 225px;
+}
+
+.imagem-artigo-informacao img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.artigo-informacao h2 {
+    border-bottom: 2px dotted rgba(48, 64, 1, 0.5);
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0 0 16px 0;
+    padding: 0 0 4px 0;
+    width: 80%;
+}
+
+.artigo-informacao p {
+    padding: 16px 0 0 0;
+}
+
+.artigo-informacao a {
+    background-color: #304001;
+    border: 2px solid #304001;
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 8px 0 0 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.artigo-informacao a:hover {
+    background-color: transparent;
+    color: #304001;
+}
+
+#rodape {
+    background-color: #304001;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.rodape-superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa-site {
+    padding: 24px 0 0 80px;
+}
+
+.mapa-site ul {
+    list-style: circle;
+}
+
+.mapa-site ul li {
+    padding: 4px 0;
+    color: #FFF;
+}
+
+.mapa-site ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+.mapa-site ul li:hover, .mapa-site ul li:hover a{
+    color: #48d93b;
+}
+
+.redes-sociais ul {
+    display: flex;
+    list-style: none;
+}
+
+.redes-sociais ul li a img {
+    width: 48px;
+}
+
+.rodape-inferior {
+    padding: 16px 0;
+}
+
+.rodape-inferior p {
+    color: #FFF;
+    text-align: center;
+    padding: 0 0 8px 0;
+}
